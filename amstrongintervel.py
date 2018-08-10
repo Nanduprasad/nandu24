@@ -1,5 +1,5 @@
-lower=int(input())
-upper=int(input())
+lower=int(raw_input())
+upper=int(raw_input())
 for num in range(lower,upper+1):
    sum=0
    temp=num
