@@ -1,5 +1,5 @@
-a=int(raw_input())
-b=int(raw_input())
+a=int(input())
+b=int(input())
 for num in range(a,b+1):
    sum=0
    temp=num
