@@ -1,6 +1,6 @@
-lower=int(raw_input())
-upper=int(raw_input())
-for num in range(lower,upper+1):
+a=int(raw_input())
+b=int(raw_input())
+for num in range(a,b+1):
    sum=0
    temp=num
    while temp>0:
