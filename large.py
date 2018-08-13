@@ -1,10 +1,10 @@
 def largest(arr,n):
-    max=arr[0]
-    for i in range(1,n):
-        if arr[i]>max:
-            max=arr[i]
+    max = arr[0]
+    for i in range(1, n):
+        if arr[i] > max:
+            max = arr[i]
     return max
-n=int(input()) 
-arr=list(map(int,input().split()))
-Ans=largest(arr,n)
-print(Ans)
+arr = [10, 324, 45, 90, 9808]
+n = len(arr)
+Ans = largest(arr,n)
+print (Ans)
