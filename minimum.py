@@ -4,7 +4,7 @@ def smallest(arr,n):
         if arr[i] < min:
             min = arr[i]
     return min
-arr = [10, 324, 45, 90, 9808]
+arr = [10, 1, 2, 3, 24]
 n = len(arr)
 Ans = smallest(arr,n)
 print (Ans)
