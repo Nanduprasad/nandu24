@@ -1,4 +1,4 @@
 import re
-z=raw_input()
-new=re.sub('[\w]+','',z)
+x=raw_input()
+new=re.sub('[\w]+','',x)
 print(len(new))
