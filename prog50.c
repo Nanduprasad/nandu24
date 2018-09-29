@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(void) 
 {
 	int num,flag=0,temp;
