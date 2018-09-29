@@ -1,20 +1,27 @@
 #include <stdio.h>
-int main()
+
+int main(void) 
 {
-	int n,i,x=1,pow=2;
-	scanf("%d",&n);
-	for(i=1;i<=n;i++)
+	int num,flag=0,temp;
+	scanf("%d",&num);
+	temp=num;
+	while(temp!=1)
 	{
-	    x=x*pow;
-	    if(x==n)
-	    {
-	        printf("yes");
-	        break;
-	    }
+		if(temp%2!=0)
+		{
+			flag=1;
+			break;
+			
+		}
+		temp=temp/2;
 	}
-        if(x!=n)
-	    {
-	        printf("no");
-	    }
+	if(flag==0)
+	{
+		printf("yes");
+	}
+	else if(flag==1)
+	{
+		printf("no");
+	}
 	return 0;
 }
