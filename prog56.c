@@ -20,8 +20,8 @@ int main(void)
 	}
 	if(num==1 && alp==1)
 	{
-		printf("yes");
+		printf("Yes");
 	}
 	else
-		printf("no");
+		printf("No");
 }
